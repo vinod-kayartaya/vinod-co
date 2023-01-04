@@ -27,7 +27,11 @@ export default function CourseList() {
                                 key={index}
                                 className='col-sm-6 col-xs-12 card'
                             >
-                                <a href={c.courseUrl} target='_blank'>
+                                <a
+                                    href={c.courseUrl}
+                                    target='_blank'
+                                    rel='noreferrer'
+                                >
                                     <img
                                         className='card-img-top'
                                         src={c.imageUrl}
