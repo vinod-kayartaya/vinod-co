@@ -17,8 +17,17 @@ const Header = () => {
                 </Link>{' '}
                 |
                 <Link className='no-underline' to='/posts'>
-                    posts
-                </Link>
+                    Posts
+                </Link>{' '}
+                |
+                <a
+                    href='https://snippets-3d494.firebaseapp.com'
+                    target='_blank'
+                    rel='noreferrer'
+                    className='no-underline'
+                >
+                    Snippets
+                </a>
                 <hr />
             </div>
         </>
