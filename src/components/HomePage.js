@@ -4,11 +4,11 @@ import Sidebar from './Sidebar';
 const HomePage = () => {
     return (
         <div className='row'>
-            <div className='col-xs-12 col-sm-4 ' style={styles.sidebar}>
-                <Sidebar />
-            </div>
             <div className='col-xs-12 col-sm-8 ' style={styles.courseList}>
                 <CourseList />
+            </div>
+            <div className='col-xs-12 col-sm-4 ' style={styles.sidebar}>
+                <Sidebar />
             </div>
         </div>
     );
