@@ -32,6 +32,9 @@ const AdminPage = () => {
                                     {
                                         method: 'post',
                                         body: JSON.stringify({ commitMessage }),
+                                        headers: {
+                                            'Content-Type': 'application/json',
+                                        },
                                     }
                                 ).then(() => alert('Publish to git started'));
                             }}
