@@ -28,14 +28,21 @@ const ListPosts = () => {
         e.preventDefault();
         const options = {
             method: 'PUT',
-            body: JSON.stringify(selectedPostMeta),
+            body: JSON.stringify({
+                meta: selectedPostMeta,
+                selectedPost,
+            }),
             headers: {
                 'Content-Type': 'application/json',
             },
         };
-        fetch('http://localhost:4000/api/posts', options)
+        fetch(
+            'http://localhost:4000/api/posts/' + selectedPostMeta.source,
+            options
+        )
             .then((resp) => resp.text())
-            .then((text) => alert('Post meta updated ' + text));
+            .then(() => alert('Saved'))
+            .catch(alert);
     };
 
     return (

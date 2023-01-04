@@ -29,8 +29,9 @@ app.post('/upload', upload.single('picture'), (req, res) => {
     res.send('Picture uploaded successfully');
 });
 
-app.put('/api/posts', (req, resp) => {
-    const filename = path.join(
+app.put('/api/posts/:source', (req, resp) => {
+    // first update the meta and then update the content of the post.
+    let filename = path.join(
         __dirname,
         '../..',
         'public',
@@ -38,20 +39,45 @@ app.put('/api/posts', (req, resp) => {
         'meta.json'
     );
 
+    const { meta, selectedPost } = req.body;
+
     fs.readFile(filename, 'utf-8')
         .then((content) => JSON.parse(content))
         .then((content) => {
             content = content.map((p) => {
-                if (p.id === req.body.id) {
-                    return req.body;
+                if (p.id === meta.id) {
+                    return meta;
                 }
                 return p;
             });
-            fs.writeFile(filename, JSON.stringify(content)).then(
-                resp.json({ success: true })
-            );
+            // fs.writeFile(filename, JSON.stringify(content)).then(() => {
+            //     console.log(content);
+            //     resp.json({ success: true });
+            // });
+
+            return fs.writeFile(filename, JSON.stringify(content));
         })
-        .catch((err) => resp.json({ success: false, error: err.message }));
+        .then(() => {
+            const { source } = req.params;
+
+            filename = path.join(
+                __dirname,
+                '../..',
+                'public',
+                'posts',
+                source + '.md'
+            );
+            fs.writeFile(filename, selectedPost)
+                .then(() => resp.end())
+                .catch((err) => {
+                    console.log(err);
+                    resp.end();
+                });
+        })
+        .catch((err) => {
+            console.log(err);
+            resp.json({ success: false, error: err.message });
+        });
 });
 
 app.post('/api/publish-to-git', (req, resp) => {
@@ -71,5 +97,5 @@ app.post('/api/publish-to-git', (req, resp) => {
 });
 
 app.listen(4000, () => {
-    console.log('server stqarted');
+    console.log('server started');
 });
