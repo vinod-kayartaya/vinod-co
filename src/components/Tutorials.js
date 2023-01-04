@@ -13,7 +13,7 @@ const Tutorials = () => {
     }, []);
 
     const tutorialsJsx = tutorials.map((t) => (
-        <div key={t.id} className='col-sm-6 col-xs-12'>
+        <div key={t.id} className='col-sm-6 col-md-3 col-xs-12'>
             <Link className='no-underline' to={`/tutorials/${t.slug}`}>
                 <div className='card'>
                     <img
