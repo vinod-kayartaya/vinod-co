@@ -1,0 +1,105 @@
+[
+    {
+        "id": 1,
+        "slug": "spring-boot",
+        "title": "Spring boot",
+        "poster": "spring-boot.png",
+        "location": "spring-boot",
+        "toc": [
+            {
+                "id": 1,
+                "title": "Introduction to Spring Boot",
+                "source": "introduction-to-spring-boot"
+            },
+            {
+                "id": 2,
+                "title": "Setting up a Spring Boot project",
+                "source": "setting-up-a-spring-boot-project"
+            },
+            {
+                "id": 3,
+                "title": "Configuration and customization in Spring Boot",
+                "source": "configuration-and-customization-in-spring-boot"
+            },
+            {
+                "id": 4,
+                "title": "Developing web applications with Spring Boot",
+                "source": "developing-web-applications-with-spring-boot"
+            },
+            {
+                "id": 5,
+                "title": "Working with databases and JPA in Spring Boot",
+                "source": "working-with-databases-and-jpa-in-spring-boot"
+            },
+            {
+                "id": 6,
+                "title": "Securing a Spring Boot application",
+                "source": "securing-a-spring-boot-application"
+            },
+            {
+                "id": 7,
+                "title": "Testing and debugging a Spring Boot application",
+                "source": "testing-and-debugging-a-spring-boot-application"
+            },
+            {
+                "id": 8,
+                "title": "Deploying a Spring Boot application",
+                "source": "deploying-a-spring-boot-application"
+            },
+            {
+                "id": 9,
+                "title": "Additional features of Spring Boot",
+                "source": "additional-features-of-spring-boot"
+            },
+            {
+                "id": 10,
+                "title": "Troubleshooting common issues with Spring Boot",
+                "source": "troubleshooting-common-issues-with-spring-boot"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "slug": "react-native",
+        "title": "React native",
+        "poster": "react-native.png",
+        "location": "react-native",
+        "toc": [
+            {
+                "id": 1,
+                "title": "Introduction to React Native",
+                "source": "introduction-to-react-native"
+            },
+            {
+                "id": 2,
+                "title": "Basics of React Native",
+                "source": "basics-of-react-native"
+            },
+            {
+                "id": 3,
+                "title": "Navigation in React Native",
+                "source": "navigation-in-react-native"
+            },
+            {
+                "id": 4,
+                "title": "Working with data",
+                "source": "working-with-data"
+            },
+            {
+                "id": 5,
+                "title": "Debugging and troubleshooting",
+                "source": "debugging-and-troubleshooting"
+            },
+            {
+                "id": 6,
+                "title": "Advanced topics",
+                "source": "advanced-topics"
+            },
+            {
+                "id": 7,
+                "title": "Deployment",
+                "source": "deployment"
+            }
+        ]
+    }
+]

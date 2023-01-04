@@ -1,0 +1,88 @@
+{
+    "content": [
+        {
+            "id": "develop-restful-web-services-using-nestjs-and-mongodb",
+            "imageUrl": "/assets/course-images/develop-restful-web-services-using-nestjs-and-mongodb.jpeg",
+            "courseUrl": "https://www.udemy.com/course/develop-restful-web-services-using-nestjs-and-mongodb/?referralCode=E43692AC9AA9B32CBF85",
+            "altText": "Develop RESTful Web Services using NestJS and MongoDB",
+            "title": "Develop RESTful Web Services using NestJS and MongoDB"
+        },
+        {
+            "id": "develop-java-mvc-web-apps-using-mybatis-servlets-and-jsp",
+            "imageUrl": "/assets/course-images/develop-java-mvc-web-apps-using-mybatis-servlets-and-jsp.jpeg",
+            "courseUrl": "https://www.udemy.com/course/develop-java-mvc-web-apps-using-mybatis-servlets-and-jsp/?referralCode=3B20487038DBFEBD7510",
+            "altText": "Develop Java MVC web apps using MyBatis, Servlets and JSP",
+            "title": "Develop Java MVC web apps using MyBatis, Servlets and JSP"
+        },
+        {
+            "id": "spring-framework-masterclass-from-basics-to-advanced",
+            "imageUrl": "/assets/course-images/spring-framework-masterclass-from-basics-to-advanced.jpeg",
+            "courseUrl": "https://www.udemy.com/course/spring-framework-masterclass-from-basics-to-advanced/?referralCode=FFC71F775D88988628FB",
+            "altText": "Spring Framework MasterClass - from basics to advanced",
+            "title": "Spring Framework MasterClass - from basics to advanced"
+        },
+        {
+            "id": "develop-restful-java-web-services-using-jax-rs-and-jersey",
+            "imageUrl": "/assets/course-images/develop-restful-java-web-services-using-jax-rs-and-jersey.jpeg",
+            "courseUrl": "https://www.udemy.com/course/develop-restful-java-web-services-using-jax-rs-and-jersey/?referralCode=162EA748C2A1060FC17B",
+            "altText": "Develop RESTful Java Web Services using JAX-RS and Jersey",
+            "title": "Develop RESTful Java Web Services using JAX-RS and Jersey"
+        },
+        {
+            "id": "developing-restful-java-web-services-using-spring-boot",
+            "imageUrl": "/assets/course-images/developing-restful-java-web-services-using-spring-boot.jpeg",
+            "courseUrl": "https://www.udemy.com/course/developing-restful-java-web-services-using-spring-boot/?referralCode=F60A0D6446EB2CF1A645",
+            "altText": "Developing RESTful Java Web Services using Spring boot",
+            "title": "Developing RESTful Java Web Services using Spring boot"
+        },
+        {
+            "id": "build-awesome-web-apps-using-angular",
+            "imageUrl": "/assets/course-images/build-awesome-web-apps-using-angular.jpeg",
+            "courseUrl": "https://www.udemy.com/course/build-awesome-web-apps-using-angular-7/?referralCode=6A4D6E366EDAD810FC6A",
+            "altText": "Build awesome web apps using Angular",
+            "title": "Build awesome web apps using Angular"
+        },
+        {
+            "id": "python-3-programming-masterclass-beginner-to-advanced",
+            "imageUrl": "/assets/course-images/python-3-programming-masterclass-beginner-to-advanced.jpeg",
+            "courseUrl": "https://www.udemy.com/course/python-3-programming-masterclass-beginner-to-advanced/?referralCode=7C61773E63143578CF1C",
+            "altText": "Python 3 Programming MasterClass - Beginner to Advanced",
+            "title": "Python 3 Programming MasterClass - Beginner to Advanced"
+        },
+        {
+            "id": "java-persistence-using-mybatis",
+            "imageUrl": "/assets/course-images/java-persistence-using-mybatis.jpeg",
+            "courseUrl": "https://www.udemy.com/course/java-persistence-using-mybatis/?referralCode=68554B6326B8E98F27FB",
+            "altText": "Java persistence using MyBatis",
+            "title": "Java persistence using MyBatis"
+        },
+        {
+            "id": "learn-angular-8-by-building-a-progressive-web-app-pwa",
+            "imageUrl": "/assets/course-images/learn-angular-8-by-building-a-progressive-web-app-pwa.jpeg",
+            "courseUrl": "https://www.udemy.com/course/learn-angular-8-by-building-a-progressive-web-app-pwa/?referralCode=CD6FFC4106CDE6A7F919",
+            "altText": "Learn Angular 8 by building a Progressive Web App (PWA)",
+            "title": "Learn Angular 8 by building a Progressive Web App (PWA)"
+        },
+        {
+            "id": "learn-react-and-redux-by-examples",
+            "imageUrl": "/assets/course-images/learn-react-and-redux-by-examples.jpeg",
+            "courseUrl": "https://www.udemy.com/course/learn-react-and-redux-by-examples/?referralCode=D962F63DA2D61B684A1D",
+            "altText": "Learn React and Redux by examples",
+            "title": "Learn React and Redux by examples"
+        },
+        {
+            "id": "learn-react-by-developing-a-progressive-web-app-pwa",
+            "imageUrl": "/assets/course-images/learn-react-by-developing-a-progressive-web-app-pwa.jpeg",
+            "courseUrl": "https://www.udemy.com/course/learn-react-by-building-a-progressive-web-app-pwa/?referralCode=AA33D32DD8722D3A4B3D",
+            "altText": "Learn React by developing a Progressive Web App (PWA)",
+            "title": "Learn React by developing a Progressive Web App (PWA)"
+        },
+        {
+            "id": "all-you-need-to-know-about-jdbc",
+            "imageUrl": "/assets/course-images/all-you-need-to-know-about-jdbc.jpeg",
+            "courseUrl": "https://www.udemy.com/course/everything-you-need-to-know-about-jdbc/?referralCode=AB4F8B6906CAFABE727B",
+            "altText": "Everything you need to know about JDBC",
+            "title": "Everything you need to know about JDBC"
+        }
+    ]
+}

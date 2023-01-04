@@ -1,13 +1,38 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #fff;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+pre {
+  background-color: gainsboro;
+  padding: 20px;
+  border-radius: 5px;
+
+}
+
+/* Style the copy button */
+.copy-button {
+  display: block;
+  border: none;
+  background-color: #3498db;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  right: 20px;
+  top: -20px;
+  position: relative;
+}
+
+.copy-button:active {
+  background-color: #afd7f2;
+  
+}
+
+.center {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.no-underline {
+  text-decoration: none;
 }

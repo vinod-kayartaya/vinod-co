@@ -1,0 +1,387 @@
+{
+    "content": [
+        {
+            "id": "mongodb-fundamentals",
+            "imageUrl": "/course-images/mongodb-fundamentals.jpeg",
+            "altText": "Mongodb fundamentals",
+            "title": "Mongodb fundamentals",
+            "subtitle": "Learn the most popular NO-SQL DBMS quickly and efficiently",
+            "description": "Mongodb is a one of the most popular NO-SQL database management system today. As against the traditional RDBMS, it stores the data in an unnormalized way, in binary JSON format.\n\nMongodb is an open source document database. The name is derived from Humongous DB. This falls into the category of NO-SQL databases. The data in Mongodb is stored in an un-normalized format, as a collection of documents. A collection in Mongodb is equivalent of a table in RDBMS and a document is equivalent of a record. However, unlike a record, a document need not have the same structure as other documents in the same collection.\n\nAll the best.",
+            "keyObjectives": [
+                "Install and start Mongodb server",
+                "CRUD operations in Mongodb",
+                "Queries in Mongodb",
+                "Importing documents from external sources",
+                "Aggregations and Map & Reduce",
+                "Indexing in MongoDB"
+            ],
+            "courseContent": {
+                "sections": [
+                    {
+                        "id": "introduction",
+                        "title": "Introduction",
+                        "lessons": [
+                            {
+                                "id": "introduction",
+                                "title": "Introduction",
+                                "type": "video",
+                                "duration": "1 min",
+                                "linkId": "iPxS9TZSlsI"
+                            },
+                            {
+                                "id": "overview-of-mongodb",
+                                "title": "Overview of Mongodb",
+                                "type": "video",
+                                "duration": "4 mins",
+                                "linkId": "O8G7Qugxrh0"
+                            },
+                            {
+                                "id": "installation",
+                                "title": "Installation",
+                                "type": "video",
+                                "duration": "7 mins",
+                                "linkId": "kKzUS3OKuOQ"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "dealing-with-data",
+                        "title": "Dealing with data",
+                        "lessons": [
+                            {
+                                "id": "inserting-documents",
+                                "title": "Inserting documents",
+                                "type": "video",
+                                "duration": "4 mins",
+                                "linkId": "1jYqBfDaiYQ"
+                            },
+                            {
+                                "id": "importing-data",
+                                "title": "Importing data",
+                                "type": "video",
+                                "duration": "5 mins",
+                                "linkId": "g_C5lyncAN8"
+                            },
+                            {
+                                "id": "executing-scripts",
+                                "title": "Executing scripts",
+                                "type": "video",
+                                "duration": "4 mins",
+                                "linkId": "tqSpSO9RXGA"
+                            },
+                            {
+                                "id": "save-vs-insert",
+                                "title": "save() v/s insert()",
+                                "type": "video",
+                                "duration": "2 mins",
+                                "linkId": "e0ZkXIocmzo"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "querying",
+                        "title": "Querying",
+                        "lessons": [
+                            {
+                                "id": "projection",
+                                "title": "Projection",
+                                "type": "video",
+                                "duration": "3 mins",
+                                "linkId": "Ge8-VhcOLd8"
+                            },
+                            {
+                                "id": "selection",
+                                "title": "Selection",
+                                "type": "video",
+                                "duration": "2 mins",
+                                "linkId": "Fp5Z-yifZ4U"
+                            },
+                            {
+                                "id": "more-queries",
+                                "title": "More queries",
+                                "type": "video",
+                                "duration": "3 mins",
+                                "linkId": "DKI-WF8zNG8"
+                            },
+                            {
+                                "id": "$and-$or-$in-operators",
+                                "title": "$and $or $in Operators",
+                                "type": "video",
+                                "duration": "5 mins",
+                                "linkId": "gwhxoGve3Eg"
+                            },
+                            {
+                                "id": "$where-operator",
+                                "title": "$where operator",
+                                "type": "video",
+                                "duration": "3 mins",
+                                "linkId": "9X9rR8fDiYI"
+                            },
+                            {
+                                "id": "aggregation",
+                                "title": "Aggregation",
+                                "type": "video",
+                                "duration": "5 mins",
+                                "linkId": "BZjQTucsZqU"
+                            },
+                            {
+                                "id": "the-mapreduce-function",
+                                "title": "The mapReduce function",
+                                "type": "video",
+                                "duration": "5 mins",
+                                "linkId": "RTQOhHXw2v0"
+                            },
+                            {
+                                "id": "indexes",
+                                "title": "Indexes",
+                                "type": "video",
+                                "duration": "3 mins",
+                                "linkId": "h0VYIJh8xog"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "updating-and-deleting",
+                        "title": "Updating and deleting",
+                        "lessons": [
+                            {
+                                "id": "updating-documents",
+                                "title": "Updating documents",
+                                "type": "video",
+                                "duration": "5 mins",
+                                "linkId": "l0fPDpo17lw"
+                            },
+                            {
+                                "id": "the-upsert-operation",
+                                "title": "The upsert operation",
+                                "type": "video",
+                                "duration": "3 mins",
+                                "linkId": "6_XvmNMsOBc"
+                            },
+                            {
+                                "id": "updating-multiple-documents",
+                                "title": "Updating multiple documents",
+                                "type": "video",
+                                "duration": "3 mins",
+                                "linkId": "4pUJS1zS1x0"
+                            },
+                            {
+                                "id": "removing-documents",
+                                "title": "Removing documents",
+                                "type": "video",
+                                "duration": "2 mins",
+                                "linkId": "ef4Qodk9CHw"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "requirements": [
+                "Laptop or PC",
+                "Knowledge of JavaScript will help, but not necessary",
+                "Good internet connection to download the relevant software",
+                "Any decent text editor like SublimeText or Notepad++",
+                "Basic idea about any RDBMS would be of some help"
+            ],
+            "targetAudience": [
+                "Anyone interested about the rapidly expanding world of NO-SQL alternate DBMS",
+                "Anyone looking for comparing RDBMS with NO-SQL databases",
+                "Database administrators and architects",
+                "Server-side developers planning to use Mongodb"
+            ],
+            "price": 499.0
+        },
+        {
+            "id": "hibernate-orm-a-quick-start-guide",
+            "imageUrl": "/course-images/hibernate-orm-a-quick-start-guide.jpeg",
+            "altText": "Hibernate ORM - a quick start guide",
+            "title": "Hibernate ORM - a quick start guide",
+            "subtitle": "Learn Object-Relational Mapping using Hibernate in an hour or less.",
+            "description": "Undoubtedly, Hibernate is the most popular Java ORM framework.  Almost every Real World Project today uses Hibernate.\n\n\nHibernate is the most popular implementation of JPA. It was the most popular ORM framework option before JPA emerged and it provides additional features on top of JPA. We will use Hibernate as the JPA implementation in this course.\n\n\nThe Java Persistence API provides Java developers with an api for mapping java objects to relational data. In this course, you will learn about the Hibernate, JPA API, JPQL (Java Persistence query language), Java Persistence Criteria API and how you can perform ORM (Object Relational Mapping) with JPA and Hibernate.",
+            "keyObjectives": [
+                "Object Relational Mapping concepts",
+                "Create a Maven project in Eclipse with Hibernate dependencies",
+                "Explore the Session API",
+                "Perform CURD operations using the Session API",
+                "Understand Hibernate Transactions",
+                "Query for entity objects",
+                "Do bulk update and delete operations"
+            ],
+            "courseContent": {
+                "sections": [
+                    {
+                        "id": "introduction",
+                        "title": "Introduction",
+                        "lessons": [
+                            {
+                                "id": "course-intro",
+                                "title": "Course intro",
+                                "type": "video",
+                                "duration": "2 mins",
+                                "linkId": "P119UNsqDRo"
+                            },
+                            {
+                                "id": "software-setup",
+                                "title": "Software setup",
+                                "type": "video",
+                                "duration": "2 mins",
+                                "linkId": "oaZa89RANk8"
+                            },
+                            {
+                                "id": "setting-up-h2-database",
+                                "title": "Setting up H2 database",
+                                "type": "video",
+                                "duration": "3 mins",
+                                "linkId": "JerLVD_Ju-k"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "getting-started-with-a-hibernate-project",
+                        "title": "Getting started with a Hibernate project",
+                        "lessons": [
+                            {
+                                "id": "creating-the-maven-project-in-eclipse-with-hibernate-orm-dependencies",
+                                "title": "Creating the Maven project in Eclipse with Hibernate ORM dependencies",
+                                "type": "video",
+                                "duration": "4 mins",
+                                "linkId": "ACGkH4KhWGg"
+                            },
+
+                            {
+                                "id": "creating-the-category-entity-class",
+                                "title": "Creating the Category entity class",
+                                "type": "video",
+                                "duration": "5 mins",
+                                "linkId": "8QgO7-9uuL0"
+                            },
+
+                            {
+                                "id": "creating-the-hibernateutil-class-for-getting-a-sessionfactory",
+                                "title": "Creating the HibernateUtil class for getting a SessionFactory",
+                                "type": "video",
+                                "duration": "9 mins",
+                                "linkId": "kgRmiSlNIWs"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "curd-operations",
+                        "title": "CRUD operations",
+                        "lessons": [
+                            {
+                                "id": "persisting-a-category-instance-into-rdbms",
+                                "title": "Persisting a Category instance into RDBMS",
+                                "type": "video",
+                                "duration": "6 mins",
+                                "linkId": "iHGjveT9uXA"
+                            },
+                            {
+                                "id": "retrieving-the-category-instance-from-the-rdbms",
+                                "title": "Retrieving the Category instance from the RDBMS",
+                                "type": "video",
+                                "duration": "3 mins",
+                                "linkId": ""
+                            },
+                            {
+                                "id": "updating-a-category-description",
+                                "title": "Updating a Category description",
+                                "type": "video",
+                                "duration": "5 mins",
+                                "linkId": ""
+                            },
+                            {
+                                "id": "deleting-a-category-entity",
+                                "title": "Deleting a Category entity",
+                                "type": "video",
+                                "duration": "3 mins",
+                                "linkId": ""
+                            }
+                        ]
+                    },
+                    {
+                        "id": "entity-associations",
+                        "title": "Entity associations",
+                        "lessons": [
+                            {
+                                "id": "many-to-one-association-between-product-and-category-entities",
+                                "title": "Many-to-one association between Product and Category entities",
+                                "type": "video",
+                                "duration": "9 mins",
+                                "linkId": ""
+                            },
+                            {
+                                "id": "one-to-many-association-between-category-and-product-entities",
+                                "title": "One-to-many association between Category and Product entities",
+                                "type": "video",
+                                "duration": "7 mins",
+                                "linkId": ""
+                            }
+                        ]
+                    },
+                    {
+                        "id": "hibernate-query-language",
+                        "title": "Hibernate Query Language",
+                        "lessons": [
+                            {
+                                "id": "get-all-categories",
+                                "title": "Get all categories",
+                                "type": "video",
+                                "duration": "5 mins",
+                                "linkId": ""
+                            },
+                            {
+                                "id": "get-products-by-price-range",
+                                "title": "Get products by price range",
+                                "type": "video",
+                                "duration": "4 mins",
+                                "linkId": ""
+                            },
+                            {
+                                "id": "pagination",
+                                "title": "Pagination",
+                                "type": "video",
+                                "duration": "3 mins",
+                                "linkId": ""
+                            },
+                            {
+                                "id": "projection",
+                                "title": "Projection",
+                                "type": "video",
+                                "duration": "3 mins",
+                                "linkId": ""
+                            },
+                            {
+                                "id": "aggregate-functions",
+                                "title": "Aggregate functions",
+                                "type": "video",
+                                "duration": "2 mins",
+                                "linkId": ""
+                            },
+                            {
+                                "id": "bulk-update",
+                                "title": "Bulk update",
+                                "type": "video",
+                                "duration": "4 mins",
+                                "linkId": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            "requirements": [
+                "Basic knowledge of Core Java",
+                "Knowledge of SQL commands would help, but absolutely not necessary",
+                "Enthusiasm to learn :-)"
+            ],
+            "targetAudience": [
+                "Java Developers",
+                "People interested in migrating from other ORM tools like MyBatis",
+                ".Net developers who want to compare the Entity Framework with Hibernate",
+                "Middleware developers who want to refine their DAO layer",
+                "Anyone who is interested in learning new things :-)"
+            ],
+            "price": 499.0
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+## Introduction to Spring boot
+
+Spring Boot is a popular framework for building Java applications, and it is especially useful for creating microservices. It is based on the Spring framework, which is a powerful and flexible framework for developing Java applications, but it eliminates much of the complexity that comes with configuring a traditional Spring application.
+
+One of the main advantages of using Spring Boot is that it significantly reduces the amount of configuration required to build a Java application. It provides a number of "starter" dependencies that allow you to add only the libraries that you need for your application, rather than including all of the libraries that the Spring framework provides. This makes it much easier to get started with a new project and eliminates the need to spend time configuring your application.
+
+Spring Boot also provides a number of useful features that are not available in the core Spring framework. For example, it includes an embedded Tomcat server, which means you can run your application as a standalone Java program without the need to deploy it to a separate application server. It also includes a number of tools for monitoring and managing your application, such as an actuator that provides information about the health of your application and a shell that allows you to run Groovy scripts against your application.
+
+To get started with Spring Boot, you will need to include the Spring Boot starter dependencies in your project. You can do this using Maven or Gradle, and there are a number of "starters" available that allow you to include only the libraries that you need. For example, if you are building a web application, you can include the spring-boot-starter-web dependency, which includes all of the libraries you need to develop a web application.
+
+Once you have included the necessary starter dependencies in your project, you can use the Spring Boot application class to configure your application. This class is responsible for bootstrapping your application and is the entry point for your application. It is usually annotated with the @SpringBootApplication annotation, which enables a number of features in your application, such as component scanning and automatic configuration.
+
+In summary, Spring Boot is a useful framework for developing Java applications, especially microservices. It reduces the amount of configuration required to build an application and provides a number of useful features for monitoring and managing your application. To get started with Spring Boot, you will need to include the necessary starter dependencies in your project and configure a Spring Boot application class.
