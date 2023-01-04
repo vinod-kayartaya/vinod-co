@@ -10,7 +10,7 @@ const Header = () => {
                     Learn with <em>Vinod</em>
                 </h1>
                 <Link className='no-underline' to='/'>
-                    <HomeOutlined />
+                    <HomeOutlined color='blue' />
                 </Link>{' '}
                 |
                 <Link className='no-underline' to='/tutorials'>
