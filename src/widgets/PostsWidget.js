@@ -7,7 +7,7 @@ const PostsWidget = () => {
     useEffect(() => {
         fetch('/posts/meta.json')
             .then((resp) => resp.json())
-            .then((data) => data.posts)
+            // .then((data) => data.posts)
             .then((posts) => posts.reverse())
             .then(setPosts);
     }, []);
