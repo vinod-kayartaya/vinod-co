@@ -53,7 +53,7 @@ const CurrentTutorial = () => {
                     : text;
             })
             .then(setCurrentTutorialContent);
-    }, [source, tutorial]);
+    }, [source, tutorial, location]);
 
     return (
         <div style={styles.container}>
