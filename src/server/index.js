@@ -57,19 +57,15 @@ app.put('/api/posts', (req, resp) => {
 app.post('/api/publish-to-git', (req, resp) => {
     const filename = path.join(__dirname, '../..', 'publish-to-git.sh');
     const { commitMessage } = req.body;
-    console.log('commitMessage', commitMessage);
     exec(`sh ${filename} "${commitMessage}"`, (error, data, getter) => {
         if (error) {
-            console.error('error: ' + error.message);
             resp.end('error: ' + error.message);
             return;
         }
         if (getter) {
-            console.log('data: ' + data);
             resp.end('data: ' + data);
             return;
         }
-        console.log('data: ' + data);
         resp.end('data: ' + data);
     });
 });
