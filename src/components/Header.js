@@ -1,3 +1,4 @@
+import { HomeOutlined } from '@ant-design/icons';
 import React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -9,7 +10,7 @@ const Header = () => {
                     Learn with <em>Vinod</em>
                 </h1>
                 <Link className='no-underline' to='/'>
-                    Home
+                    <HomeOutlined />
                 </Link>{' '}
                 |
                 <Link className='no-underline' to='/tutorials'>
