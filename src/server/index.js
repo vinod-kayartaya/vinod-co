@@ -56,15 +56,18 @@ app.put('/api/posts', (req, resp) => {
 
 app.post('/api/publish-to-git', (req, resp) => {
     const filename = path.join(__dirname, '../..', 'publish-to-git.sh');
-    exec(`cat ${filename}`, (error, data, getter) => {
+    exec(`sh ${filename}`, (error, data, getter) => {
         if (error) {
+            console.error('error: ' + error.message);
             resp.end('error: ' + error.message);
             return;
         }
         if (getter) {
+            console.log('data: ' + data);
             resp.end('data: ' + data);
             return;
         }
+        console.log('data: ' + data);
         resp.end('data: ' + data);
     });
 });
