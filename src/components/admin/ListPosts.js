@@ -24,8 +24,7 @@ const ListPosts = () => {
         setSelectedPostMeta((oldVals) => ({ ...oldVals, [name]: value }));
     };
 
-    const submitHandler = (e) => {
-        e.preventDefault();
+    const updateHandler = (e) => {
         const options = {
             method: 'PUT',
             body: JSON.stringify({
@@ -42,6 +41,22 @@ const ListPosts = () => {
         )
             .then((resp) => resp.text())
             .then(() => alert('Saved'))
+            .catch(alert);
+    };
+    const addHandler = (e) => {
+        const options = {
+            method: 'POST',
+            body: JSON.stringify({
+                meta: selectedPostMeta,
+                selectedPost,
+            }),
+            headers: {
+                'Content-Type': 'application/json',
+            },
+        };
+        fetch('http://localhost:4000/api/posts', options)
+            .then((resp) => resp.text())
+            .then(() => alert('Added'))
             .catch(alert);
     };
 
@@ -63,61 +78,67 @@ const ListPosts = () => {
                     </ul>
                 </div>
                 <div className='col-md-8'>
-                    <form onSubmit={submitHandler}>
-                        <div className='mb-3'>
-                            <label htmlFor='postTitle' className='form-label'>
-                                Post title
-                            </label>
-                            <input
-                                type='text'
-                                className='form-control'
-                                id='postTitle'
-                                placeholder='post title'
-                                value={selectedPostMeta.title}
-                                name='title'
-                                onChange={changeHandler}
-                            />
-                        </div>
-                        <div className='mb-3'>
-                            <label
-                                htmlFor='postDescription'
-                                className='form-label'
-                            >
-                                Post description
-                            </label>
-                            <textarea
-                                style={styles.postDescription}
-                                type='text'
-                                className='form-control'
-                                id='postDescription'
-                                placeholder='post description'
-                                name='description'
-                                value={selectedPostMeta.description}
-                                onChange={changeHandler}
-                            ></textarea>
-                        </div>
-                        <div className='mb-3'>
-                            <label htmlFor='post' className='form-label'>
-                                Post content
-                            </label>
-                            <textarea
-                                style={styles.postContent}
-                                type='text'
-                                className='form-control'
-                                id='post'
-                                placeholder='post content'
-                                name='postContent'
-                                value={selectedPost}
-                                onChange={(e) => {
-                                    setSelectedPost(e.target.value);
-                                }}
-                            ></textarea>
-                        </div>
+                    <div className='mb-3'>
+                        <label htmlFor='postTitle' className='form-label'>
+                            Post title
+                        </label>
+                        <input
+                            type='text'
+                            className='form-control'
+                            id='postTitle'
+                            placeholder='post title'
+                            value={selectedPostMeta.title}
+                            name='title'
+                            onChange={changeHandler}
+                        />
+                    </div>
+                    <div className='mb-3'>
+                        <label htmlFor='postDescription' className='form-label'>
+                            Post description
+                        </label>
+                        <textarea
+                            style={styles.postDescription}
+                            type='text'
+                            className='form-control'
+                            id='postDescription'
+                            placeholder='post description'
+                            name='description'
+                            value={selectedPostMeta.description}
+                            onChange={changeHandler}
+                        ></textarea>
+                    </div>
+                    <div className='mb-3'>
+                        <label htmlFor='post' className='form-label'>
+                            Post content
+                        </label>
+                        <textarea
+                            style={styles.postContent}
+                            type='text'
+                            className='form-control'
+                            id='post'
+                            placeholder='post content'
+                            name='postContent'
+                            value={selectedPost}
+                            onChange={(e) => {
+                                setSelectedPost(e.target.value);
+                            }}
+                        ></textarea>
+                    </div>
 
-                        <button className='btn btn-primary'>
-                            Save changes
-                        </button>
-                    </form>
+                    <button
+                        type='button'
+                        onClick={updateHandler}
+                        className='btn btn-primary'
+                    >
+                        Update
+                    </button>
+                    <button
+                        type='button'
+                        onClick={addHandler}
+                        className='btn btn-primary'
+                    >
+                        Add as new
+                    </button>
                 </div>
             </div>
         </>

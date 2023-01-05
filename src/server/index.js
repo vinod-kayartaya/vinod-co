@@ -11,6 +11,13 @@ const app = express();
 app.use(cors());
 app.use(bodyParser.json());
 
+const slugify = (string) => {
+    return string
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, '-')
+        .replace(/(^-|-$)+/g, '');
+};
+
 // Set up storage for the uploaded pictures
 const storage = multer.diskStorage({
     destination: function (req, file, cb) {
@@ -66,6 +73,54 @@ app.put('/api/posts/:source', (req, resp) => {
                 'public',
                 'posts',
                 source + '.md'
+            );
+            fs.writeFile(filename, selectedPost)
+                .then(() => resp.end())
+                .catch((err) => {
+                    console.log(err);
+                    resp.end();
+                });
+        })
+        .catch((err) => {
+            console.log(err);
+            resp.json({ success: false, error: err.message });
+        });
+});
+app.post('/api/posts', (req, resp) => {
+    // first update the meta and then update the content of the post.
+    let filename = path.join(
+        __dirname,
+        '../..',
+        'public',
+        'posts',
+        'meta.json'
+    );
+
+    const { meta, selectedPost } = req.body;
+    meta.source = slugify(meta.title);
+
+    const date = new Date();
+    meta.created = date.toLocaleDateString() + ' ' + date.toLocaleTimeString();
+    meta.tags = [];
+
+    fs.readFile(filename, 'utf-8')
+        .then((content) => JSON.parse(content))
+        .then((content) => {
+            if (!content || content.length === 0) {
+                meta.id = 1;
+            } else {
+                meta.id = Math.max(...content.map((c) => c.id)) + 1;
+            }
+            content.push(meta);
+            return fs.writeFile(filename, JSON.stringify(content));
+        })
+        .then(() => {
+            filename = path.join(
+                __dirname,
+                '../..',
+                'public',
+                'posts',
+                meta.source + '.md'
             );
             fs.writeFile(filename, selectedPost)
                 .then(() => resp.end())
