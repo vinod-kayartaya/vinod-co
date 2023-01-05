@@ -21,6 +21,10 @@ const CurrentPost = () => {
             .then(setCurrentPostContent);
     }, [source]);
 
+    useEffect(() => {
+        console.log('trying to highlight syntax');
+        window.Prism.highlightAll();
+    });
     return (
         <div style={styles.container}>
             <Markdown>{currentPostContent}</Markdown>

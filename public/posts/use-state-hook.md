@@ -4,7 +4,7 @@ The `useState` hook is a feature in React that allows you to add state to functi
 
 Here is an example of how you might use the `useState` hook in a functional component:
 
-```js
+```javascript
 import { useState } from 'react';
 
 function MyComponent() {

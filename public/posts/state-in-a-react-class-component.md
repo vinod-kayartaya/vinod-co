@@ -4,7 +4,7 @@ In a class-based React component, the state is an object that stores the compone
 
 Here is an example of a class-based React component that has a state object with a single property called count:
 
-```js
+```javascript
 class MyComponent extends React.Component {
     constructor(props) {
         super(props);
@@ -23,7 +23,7 @@ In this example, the state object has a single property called count that is ini
 
 To update the state, you can call the setState method and pass it an object that contains the new state values. For example:
 
-```js
+```javascript
 this.setState({ count: this.state.count + 1 });
 ```
 

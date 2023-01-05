@@ -4,7 +4,7 @@ There are several ways to reverse an array in JavaScript. Here are a few options
 
 1. Using the reverse method:
 
-```js
+```javascript
 let arr = [1, 2, 3, 4, 5];
 arr.reverse();
 // arr is now [5, 4, 3, 2, 1]
@@ -14,7 +14,7 @@ The reverse method modifies the original array in place and returns a reference 
 
 2. Using the spread operator (...) and the reverse method:
 
-```js
+```javascript
 let arr = [1, 2, 3, 4, 5];
 let reversed = [...arr].reverse();
 // arr is unchanged, but reversed is [5, 4, 3, 2, 1]
@@ -24,7 +24,7 @@ This method creates a new array that is a copy of the original array, using the 
 
 3. Using a loop:
 
-```js
+```javascript
 let arr = [1, 2, 3, 4, 5];
 let reversed = [];
 
@@ -39,7 +39,7 @@ This method uses a loop to iterate over the elements of the array in reverse ord
 
 4. Using the reduce method:
 
-```js
+```javascript
 let arr = [1, 2, 3, 4, 5];
 let reversed = arr.reduce((acc, val) => [val, ...acc], []);
 // arr is unchanged, but reversed is [5, 4, 3, 2, 1]

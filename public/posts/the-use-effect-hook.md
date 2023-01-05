@@ -4,7 +4,7 @@ The useEffect hook is a feature in React that allows you to perform side effects
 
 Here is an example of how you might use the useEffect hook to fetch data from an API and update the component's state:
 
-```js
+```javascript
 import { useState, useEffect } from 'react';
 
 function MyComponent() {
@@ -33,7 +33,7 @@ The useEffect hook can be used in a variety of ways, depending on the specific n
 
 1. To perform an operation when the component mounts and unmounts:
 
-```js
+```javascript
 useEffect(() => {
     // Perform some operation when the component mounts
     return () => {
@@ -46,7 +46,7 @@ In this example, the useEffect hook is called with an empty array as the second 
 
 2. To perform an operation when a specific value changes:
 
-```js
+```javascript
 useEffect(() => {
     // Perform some operation when the value of someVariable changes
 }, [someVariable]);
@@ -56,7 +56,7 @@ In this example, the useEffect hook is called with an array that contains the so
 
 3. To perform an operation when multiple values change:
 
-```js
+```javascript
 useEffect(() => {
     // Perform some operation when the value of someVariable or anotherVariable changes
 }, [someVariable, anotherVariable]);

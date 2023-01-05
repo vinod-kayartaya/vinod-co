@@ -6,7 +6,7 @@ There are two types of components in React: functional components and class-base
 
 Functional components are simple functions that accept props (short for properties) as an argument and return a React element. They are often used for components that are presentational only, and do not have their own state. Here is an example of a functional component in React:
 
-```js
+```javascript
 import React from 'react';
 
 function Welcome(props) {
@@ -16,7 +16,7 @@ function Welcome(props) {
 
 Class-based components are JavaScript classes that extend the React.Component base class. They have their own state and lifecycle methods, and are often used for components that need to manage state or perform side effects. Here is an example of a class-based component in React:
 
-```js
+```javascript
 import React, { Component } from 'react';
 
 class Welcome extends Component {
