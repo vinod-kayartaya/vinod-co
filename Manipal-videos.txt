@@ -1,0 +1,95 @@
+01_A_block_that_executes_always.mp4 --> https://vimeo.com/701133837
+07_Using_multiple_catches_with_one_try_block - Demo.mp4 --> https://vimeo.com/701133606
+06_Using_multiple_catches_with_one_try_block_v1.mp4 --> https://vimeo.com/701133151
+04_Java’s_approach_to_handle_exceptions.mp4 --> https://vimeo.com/701132887
+03_Demonstration_of_unchecked_and_checked_exceptions - Demo.mp4 --> https://vimeo.com/701131314
+02_Checked_and_Unchecked_Exceptions --> https://vimeo.com/701130057
+01_Error_handling_and_Java_Exception_API --> https://vimeo.com/701129754
+02_Wrapper_classes_boxing_and_unboxing --> https://vimeo.com/701129509
+01_Wrapper_Classes --> https://vimeo.com/701128904
+02_Converting_Date_to_String_and_vice_versa (Demo) --> https://vimeo.com/701128662
+01_Converting_Date_to_String_and_vice_versa --> https://vimeo.com/701123780
+M2L2L6_Polymorphism_v1 --> https://vimeo.com/697309743
+M2L2L5_Inheritance_v1 --> https://vimeo.com/697309642
+M2L2L4_Aggregation_v1 --> https://vimeo.com/697309567
+M2L2L3_Encapsulation_v1 --> https://vimeo.com/697309512
+M2L2L2_Abstraction_v1 --> https://vimeo.com/697309453
+M2L2L1_Major_and_minor_elements_of_OOP_v1 --> https://vimeo.com/697309397
+M2L1L2_Class_vs_Object_v1 --> https://vimeo.com/697309295
+M2L1L1_Procedural_Vs_Object_oriented_programming_v1 --> https://vimeo.com/697309147
+M13L1L4_Demonstration of ANT Tasks to Build a Project - Demo --> https://vimeo.com/582445118
+M12L2L2_Demonstration_of_testing_functions - Demo --> https://vimeo.com/582444961
+M11L1L2_Creating and Using Logger - Demo --> https://vimeo.com/582444708
+M10L1L4_Demo_on_annotation - Demo --> https://vimeo.com/582444491
+M8L1L2_Reading_from_properties_file_using_ResourceBundle - Demo --> https://vimeo.com/582444282
+4_Executing_a_stored_procedure_using_CallableStatement --> https://vimeo.com/582435509
+3_Updating_and_Deleting_records --> https://vimeo.com/582435313
+2_Inserting_a_record_using_PreparedStatement --> https://vimeo.com/582435070
+01-Inserting a record using Statement --> https://vimeo.com/582434684
+M6L4L7_Demonstration_of_reading_from_keyboard - Demo --> https://vimeo.com/582433609
+M4L10L5_Using_interfaces_to_achieve_loose_coupling - Demo --> https://vimeo.com/582432855
+M4L10L2_Interfaces_in_Java - Demo --> https://vimeo.com/582432619
+M3L4L2_Demonstration_of_do-while_loop - Demo --> https://vimeo.com/582432356
+M3L2L3_Demonstrating_use_of_bitwise_operators - Demo --> https://vimeo.com/582431839
+M3L2L2_Demonstrating_use_of_basic_operators - Demo --> https://vimeo.com/582431259
+M3L1L4_Demonstration_of_using_variables_and_datatypes - Demo --> https://vimeo.com/582431058
+M1L2L1_Using_Eclipse_IDE - Demo --> https://vimeo.com/582430273
+M1L1L3_Getting_started_with_Java_Language - Demo --> https://vimeo.com/582430070
+8_Demonstrating_transactions --> https://vimeo.com/582429838
+7_Executing_queries_dynamically --> https://vimeo.com/582429603
+06-Getting multiple records --> https://vimeo.com/582429326
+5_Getting_a_record_based_on_primary_key --> https://vimeo.com/582429208
+M7L2L2_Demonstration_of_List_using_ArrayList - Demo --> https://vimeo.com/582389400
+M9L2L4_Demonstrating_issues_with_shared_data_and_solutions - Demo --> https://vimeo.com/582389204
+M9L2L2_Demonstrating_thread_functionalities - Demo --> https://vimeo.com/582388954
+M9L1L3_Demonstrating_a_multithreaded_application - Demo --> https://vimeo.com/582388585
+M8L4L2_Using_scanner_to_read_data_from_keyboard - Demo --> https://vimeo.com/582388320
+M8L3L2_Wrapper_classes_boxing_and_unboxing - Demo --> https://vimeo.com/582388149
+M8L2L2_Converting_Date_to_String_and_vice_versa - Demo --> https://vimeo.com/582387749
+M8L1L3_Reading_from_properties_file_using_Properties_class - Demo --> https://vimeo.com/582387375
+M7L7L4_Arrays_utility_class - Demo --> https://vimeo.com/582387081
+M7L7L2_Collections_utility_class - Demo --> https://vimeo.com/582386492
+M7L6L2_Using_iterators_in_Java - Demo --> https://vimeo.com/582386347
+M7L5L4_Using_comparator_to_compare_objects - Demo --> https://vimeo.com/582386013
+M7L5L2_Working_with_comparable_objects - Demo --> https://vimeo.com/582385425
+M7L4L3_Demonstration_of_Map_using_TreeMap - Demo --> https://vimeo.com/582384937
+M7L4L2_Demonstration_of_Map_using_HashMap - Demo --> https://vimeo.com/582384405
+M7L3L3_Demonstration_of_Set_using_TreeSet - Demo --> https://vimeo.com/582384055
+M7L3L2_Demonstration_of_Set_using_HashSet - Demo --> https://vimeo.com/582383607
+M7L2L3_Demonstration_of_List_using_LinkedList - Demo --> https://vimeo.com/582382698
+M6L4L5_Retreiving_serialized_objects - Demo --> https://vimeo.com/582156438
+M6L4L4_Storing_objects_via_serialization - Demo --> https://vimeo.com/582156124
+M6L4L2_Reading_numbers_from_a_file - Demo --> https://vimeo.com/582155875
+M6L4L1_Writing_numbers_to_a_file - Demo --> https://vimeo.com/582155577
+M6L3L4_Reading_data_from_a_text_file - Demo --> https://vimeo.com/582155287
+M6L3L2_Writing_data_to_a_text_file - Demo --> https://vimeo.com/582154834
+M3L6L4_Demonstration_of_two_dimensional_arrays - Demo --> https://vimeo.com/582154225
+M3L6L2_Single_dimension_arrays - Demo --> https://vimeo.com/582153905
+M3L5L2_Demonstration_of_branching_statements - Demo --> https://vimeo.com/582153631
+M3L4L6_Demonstration_of_while_loop - Demo --> https://vimeo.com/582153305
+M3L4L4_Demonstration_of_for_loop - Demo --> https://vimeo.com/582153004
+M3L3L4_Demonstration_of_switch-case_construct - Demo --> https://vimeo.com/582152457
+M3L3L2_Demonstration_of_if-else_construct - Demo --> https://vimeo.com/582151168
+M6L1L2_Using_File_API_to_browse_directories - Demo --> https://vimeo.com/582150734
+M5L4L2_Creating_custom_exception_classes - Demo --> https://vimeo.com/582150396
+M5L3L2_Throwing_exceptions - Demo --> https://vimeo.com/582150031
+M5L2L2_Using_finally - Demo --> https://vimeo.com/582149782
+M5L1L7_Using_multiple_catches_with_one_try_block - Demo --> https://vimeo.com/582149510
+M5L1L5_Demonstrating_exception_handling - Demo --> https://vimeo.com/582149090
+M5L1L3_Demonstration_of_unchecked_and_checked_exceptions - Demo --> https://vimeo.com/582148780
+M4L9L2_Demonstrating_package_and_import - Demo --> https://vimeo.com/582148417
+M4L8L4_Abstract_methods_and_classes - Demo --> https://vimeo.com/582148154
+M4L8L2_Overriding_and_polymorphism - Demo --> https://vimeo.com/582147797
+M4L5L5_Demonstration_of_multilevel_inheritance_in_Java - Demo_1 --> https://vimeo.com/582147466
+M4L5L5_Demonstration_of_multilevel_inheritance_in_Java - Demo --> https://vimeo.com/582147273
+M4L5L2_Demonstration_of_inheritance_in_Java - Demo --> https://vimeo.com/582146919
+M4L4L2_Aggregation - Demo --> https://vimeo.com/582146541
+M4L3L2_Static_class_members - Demo --> https://vimeo.com/582146002
+M4L2L4_Demonstrating_parameterized_constructors - Demo --> https://vimeo.com/582145595
+M4L2L2_Demonstrating_constructors - Demo --> https://vimeo.com/582145309
+M4L1L7_Demonstrating_the_use_of_this_keyword - Demo --> https://vimeo.com/582144838
+M4L1L5_Demonstrating_methods_in_a_class - Demo --> https://vimeo.com/582144479
+M4L1L3_Demonstrating_use_of_different_types_of_vari_in_a_class - Demo --> https://vimeo.com/582143749
+M3L7L2_The_String_class - Demo --> https://vimeo.com/582143065
+M3L7L1_The_String_class_v1 --> https://vimeo.com/582142187
+M3L6L6_Demonstration_of_enhanced_for_loop - Demo --> https://vimeo.com/582141966

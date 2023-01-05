@@ -28,6 +28,15 @@ const Header = () => {
                 >
                     Snippets
                 </a>
+                |
+                <a
+                    href='https://www.youtube.com/channel/UCv5p6Zh6Sh6Pd7BQjgcNWog?sub_confirmation=1'
+                    target='_blank'
+                    rel='noreferrer'
+                    className='no-underline'
+                >
+                    Youtube channel
+                </a>
                 <hr />
             </div>
         </>
