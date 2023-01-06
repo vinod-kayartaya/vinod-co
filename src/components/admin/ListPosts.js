@@ -1,14 +1,15 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
+import FileUpload from './FileUpload';
 
 const ListPosts = () => {
     const [posts, setPosts] = useState([]);
     const [selectedPostMeta, setSelectedPostMeta] = useState({});
     const [selectedPost, setSelectedPost] = useState('');
+    const taRef = useRef();
 
     useEffect(() => {
         fetch('/posts/meta.json')
             .then((resp) => resp.json())
-            // .then((data) => data.posts)
             .then(setPosts);
     }, []);
 
@@ -112,6 +113,7 @@ const ListPosts = () => {
                             Post content
                         </label>
                         <textarea
+                            ref={taRef}
                             style={styles.postContent}
                             type='text'
                             className='form-control'
@@ -124,21 +126,50 @@ const ListPosts = () => {
                             }}
                         ></textarea>
                     </div>
+                    <div className='mb-3'>
+                        <FileUpload
+                            onSuccess={(resp) => {
+                                const textarea = taRef.current;
+                                const start = textarea.selectionStart;
+                                const end = textarea.selectionEnd;
+                                const currentValue = textarea.value;
+                                const value = '![](' + resp.filename + ')';
+                                // const value = resp.filename;
 
-                    <button
-                        type='button'
-                        onClick={updateHandler}
-                        className='btn btn-primary'
-                    >
-                        Update
-                    </button>
-                    <button
-                        type='button'
-                        onClick={addHandler}
-                        className='btn btn-primary'
-                    >
-                        Add as new
-                    </button>
+                                // Insert the value at the cursor position
+                                const newValue =
+                                    currentValue.substring(0, start) +
+                                    value +
+                                    currentValue.substring(end);
+
+                                // Update the value of the textarea
+                                // textarea.value = newValue;
+                                // textarea.setSelectionRange(
+                                //     start + value.length,
+                                //     start + value.length
+                                // );
+
+                                setSelectedPost(newValue);
+                            }}
+                            onError={console.log}
+                        />
+                    </div>
+                    <div className='mb-3'>
+                        <button
+                            type='button'
+                            onClick={updateHandler}
+                            className='btn btn-primary'
+                        >
+                            Update
+                        </button>
+                        <button
+                            type='button'
+                            onClick={addHandler}
+                            className='btn btn-primary'
+                        >
+                            Add as new
+                        </button>
+                    </div>
                 </div>
             </div>
         </>
@@ -152,11 +183,11 @@ const styles = {
         cursor: 'pointer',
     },
     postDescription: {
-        minHeight: 150,
-        maxHeight: 150,
+        minHeight: 100,
+        maxHeight: 100,
     },
     postContent: {
-        minHeight: 450,
-        maxHeight: 450,
+        minHeight: 250,
+        maxHeight: 250,
     },
 };

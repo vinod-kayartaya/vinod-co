@@ -1,5 +1,7 @@
 ## Introduction to Redux
 
+![](/assets/post-images/redux.png)
+
 Redux is a predictable state management library for JavaScript applications. It is often used with libraries such as React or Angular for building user interfaces.
 
 At a high level, Redux works by having a central store that holds the state of the whole application. The store is created by passing a root reducer function to the createStore function. The root reducer is a function that takes in the current state of the application and an action, and returns the next state of the application based on the action.

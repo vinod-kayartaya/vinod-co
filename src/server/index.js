@@ -19,21 +19,33 @@ const slugify = (string) => {
 };
 
 // Set up storage for the uploaded pictures
+const uploadPath = path.join(
+    __dirname,
+    '..',
+    '..',
+    'public',
+    'assets',
+    'post-images'
+);
+
 const storage = multer.diskStorage({
     destination: function (req, file, cb) {
-        cb(null, './uploads/');
+        cb(null, uploadPath);
     },
     filename: function (req, file, cb) {
-        cb(null, file.fieldname + '-' + Date.now() + '.jpg');
+        cb(null, file.originalname);
     },
 });
 
 const upload = multer({ storage: storage });
 
 // Set up the endpoint
-app.post('/upload', upload.single('picture'), (req, res) => {
+app.post('/upload-image', upload.single('file'), (req, res) => {
     // The picture is now uploaded and stored in the 'uploads' directory
-    res.send('Picture uploaded successfully');
+    console.log(req.file);
+    res.json({
+        filename: path.join('/assets', 'post-images', req.file.originalname),
+    });
 });
 
 app.put('/api/posts/:source', (req, resp) => {
@@ -57,10 +69,6 @@ app.put('/api/posts/:source', (req, resp) => {
                 }
                 return p;
             });
-            // fs.writeFile(filename, JSON.stringify(content)).then(() => {
-            //     console.log(content);
-            //     resp.json({ success: true });
-            // });
 
             return fs.writeFile(filename, JSON.stringify(content));
         })

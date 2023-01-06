@@ -1,5 +1,7 @@
 ## Using multiple catches with one try block in Java
 
+![](/assets/post-images/catch.png)
+
 In Java, you can use multiple catch blocks with a single try block to handle different types of exceptions. This can be useful if you want to handle different exceptions differently, or if you want to handle the same exception differently depending on the circumstances.
 
 Here is an example of using multiple catch blocks with a single try block in Java:

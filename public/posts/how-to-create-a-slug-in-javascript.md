@@ -1,5 +1,9 @@
 ## How to create a 'slug' in JavaScript
 
+
+![](/assets/post-images/slug.png)
+
+
 Here's a simple Node.js function that converts a string into a slug (a string that can be used in a URL):
 
 ```javascript

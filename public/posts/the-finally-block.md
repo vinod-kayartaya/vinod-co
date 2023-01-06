@@ -1,7 +1,9 @@
 ## The **finally** block
 
-In Java, the finally block is a block of code that is used to ensure that a certain piece of code is executed after a try block, whether or not an exception is thrown.
+![](/assets/post-images/finally.jpeg)
 
+
+In Java, the finally block is a block of code that is used to ensure that a certain piece of code is executed after a try block, whether or not an exception is thrown.
 
 
 Here is an example of how to use a finally block in Java:
