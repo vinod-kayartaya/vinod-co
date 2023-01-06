@@ -1,5 +1,7 @@
 ## Components in ReactJS
 
+![](/assets/post-images/component.png)
+
 In React, a component is a piece of code that represents a part of a user interface. Components are the building blocks of a React application, and can be reused throughout the application.
 
 There are two types of components in React: functional components and class-based components.

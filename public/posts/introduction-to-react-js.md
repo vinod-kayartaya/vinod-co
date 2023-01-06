@@ -1,5 +1,7 @@
 ## Introduction to React JS
 
+![](/assets/post-images/react.jpeg)
+
 React is a popular JavaScript library for building user interfaces. It was developed by Facebook, and is often used for building single-page applications and mobile applications.
 
 One of the key features of React is its ability to handle the state of components, making it easy to build interactive and dynamic user interfaces. In React, a component is a piece of code that represents a part of a user interface. Each component has its own state, which is an object that stores information about the component. The state can be changed, and the component will re-render itself to reflect the new state.

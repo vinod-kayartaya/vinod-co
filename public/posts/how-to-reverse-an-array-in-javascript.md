@@ -1,5 +1,7 @@
 ## How to reverse an array in JavaScript?
 
+![](/assets/post-images/array-reverse.png)
+
 There are several ways to reverse an array in JavaScript. Here are a few options:
 
 1. Using the reverse method:

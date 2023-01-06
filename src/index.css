@@ -36,3 +36,7 @@ pre {
 .no-underline {
   text-decoration: none;
 }
+
+.col-md-8.col-xs-12   img {
+  max-width: 100%
+}
