@@ -22,7 +22,6 @@ const CurrentPost = () => {
     }, [source]);
 
     useEffect(() => {
-        console.log('trying to highlight syntax');
         window.Prism.highlightAll();
     });
     return (

@@ -101,5 +101,39 @@
                 "source": "deployment"
             }
         ]
+    },
+    {
+        "id": 3,
+        "slug": "git",
+        "title": "Git",
+        "poster": "git.png",
+        "location": "git",
+        "toc": [
+            {
+                "id": 1,
+                "title": "Git fundamentals",
+                "source": "git-fundamentals"
+            },
+            {
+                "id": 2,
+                "title": "Getting Started with Git",
+                "source": "getting-started-with-git"
+            },
+            {
+                "id": 3,
+                "title": "Undoing Changes",
+                "source": "undoing-changes"
+            },
+            {
+                "id": 4,
+                "title": "Git branches",
+                "source": "git-branches"
+            },
+            {
+                "id": 5,
+                "title": "Git tags",
+                "source": "git-tags"
+            }
+        ]
     }
 ]

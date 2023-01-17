@@ -24,6 +24,10 @@ const CurrentTutorial = () => {
     }, [location]);
 
     useEffect(() => {
+        window.Prism.highlightAll();
+    });
+
+    useEffect(() => {
         if (tutorial.toc) {
             console.log(tutorial.toc);
             const index = tutorial.toc.findIndex((t) => t.source === source);
